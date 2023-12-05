@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav {
+        display: none;
+    }
+    /* This means that when the screen size is less than 1200px the desktop view will disappear to switch tot hamburger view */
+    #hamburger-nav {
+        display: flex;
+    }
+}
